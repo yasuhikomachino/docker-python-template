@@ -1,10 +1,11 @@
-version: '3.7'
+version: '3.8'
 
 services:
     python:
-        image: python:3.8-slim
+        build:
+            context: . 
+            dockerfile: docker/python/Dockerfile
         stdin_open: true
         tty: true
-        working_dir: /src
         volumes:
-            - ./src:/src
+            - ./src:/workspace
