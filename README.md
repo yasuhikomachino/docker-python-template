@@ -2,11 +2,14 @@
 A template to quickly build a python development environment.
 
 ## Environment
-- Docker version 19.03.12, build 48a66213fe
-- docker-compose version 1.26.2, build eefe0d31
+- Docker 19.03.12
+- docker-compose 1.26.2
 
 ## Stack
-Python 3.9.0
+- Python 3.9.0
+- mypy 0.79
+- flake8 3.8.4
+- black 20.8b1
 
 ## Run python  
 ```
