@@ -20,7 +20,7 @@ A template to quickly build a python development environment.
 $ docker-compose build
 ```
 
-## Run python  
+## Run python container 
 
 ```
 $ docker-compose run --rm python bash
