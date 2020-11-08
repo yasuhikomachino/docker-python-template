@@ -3,5 +3,7 @@ SHELL ["/bin/bash", "-oeux", "pipefail", "-c"]
 
 WORKDIR /workspace
 
-COPY src/requirements.txt .
-RUN pip install -r requirements.txt 
+RUN pip install \
+  black==20.8b1 \
+  flake8==3.8.4 \
+  mypy==0.790
